@@ -1,15 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    awesome_print (1.9.2)
     base64 (0.2.0)
-    csv (3.3.0)
-    httparty (0.22.0)
-      csv
-      mini_mime (>= 1.0.0)
-      multi_xml (>= 0.5.2)
     logger (1.6.0)
-    mini_mime (1.1.5)
-    multi_xml (0.6.0)
     nokogiri (1.16.6-arm64-darwin)
       racc (~> 1.4)
     racc (1.8.0)
@@ -29,7 +23,7 @@ PLATFORMS
   arm64-darwin-23
 
 DEPENDENCIES
-  httparty
+  awesome_print
   nokogiri
   selenium-webdriver
 
